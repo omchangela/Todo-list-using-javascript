@@ -1,0 +1,106 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #000000;
+}
+
+.container {
+    max-width: 500px;
+    background-color: #a09446;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 5px;
+    padding-bottom: 5px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form-check-input{
+    position: absolute;
+    right: 22px;
+}
+.form-control {
+    flex: 1;
+    border-radius: 0;
+}
+
+#addTaskBtn {
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(8, 8, 8);
+    position: relative;
+    left: 40%;
+    padding: 10px 15px;
+}
+
+#addTaskBtn:hover {
+    background-color: #331b3c;
+    color: #fff;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #c9c8c9;
+    color: #fff;
+}
+
+.badge {
+    font-size: 12px;
+    
+    position: absolute;
+    right: 86px;
+}
+
+.value:hover{
+    color: #fff;
+}
+.completed {
+    text-decoration: line-through;
+    color: rgb(10, 10, 10);
+}
+.completed:hover {
+    
+    color: rgb(255, 255, 255);
+}
+
+
+.delete-button {
+    border: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: color 0.3s ease;
+    
+    position: absolute;
+    right: 44px;
+}
+
+.delete-button:hover {
+    color: rgb(255, 255, 255);
+}
